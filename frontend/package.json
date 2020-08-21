@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "nuxt",
     "generate": "nuxt generate",
+    "build": "nuxt generate",
     "serve": "nuxt serve",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "yarn lint:js"

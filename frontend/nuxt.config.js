@@ -7,7 +7,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 const apiUrl = process.env.API_URL || 'http://localhost:1337'
-const clientUrl = process.env.URL || 'http://localhost:3000'
+const clientUrl = process.env.VERCEL_URL || process.env.URL || 'http://localhost:3000'
 
 export default {
   /*
