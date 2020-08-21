@@ -6,7 +6,10 @@
       "use": "@nuxtjs/now-builder",
       "config": {
         "generateStaticRoutes": true
-      }
+      },
+      "rewrites": [
+        { "source": "/api/:match*", "destination": "https://werkhof-ichen-backend.herokuapp.com/:match*" }
+      ]
     }
   ]
 }
